@@ -23,9 +23,9 @@
     <!-- Right column for Project Description -->
     <td width="50%" valign="top">
       <h2 align= center><strong>Info</strong></h2>
-      <div>
+      <p align= justify>
         This repo contains all the executable files I use on my computer. It is where I place things like source code I run on a schedule, or helper functions that I use to run complicated functions having to do with my personal/local computer. For instance, <strong>sync_recently_liked_spotify.sh</strong> is a shell script that envokes a python evironment to connect to spotify and programmatically update my 100 newest liked songs. I can either call that shell script from the command line or create a cron-job that will do it on a set schedule."
-      </div>
+      </p>
       <br>
     </td>
   </tr>
