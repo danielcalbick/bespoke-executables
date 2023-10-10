@@ -51,6 +51,6 @@
 
 <h3 style="your-style-here" id="code">Code:</h3>
 
-<h6 style="your-style-here" id="spotify_rl">sync_recently_liked_spotify.sh</h6>
+<h5 style="your-style-here" id="spotify_rl">sync_recently_liked_spotify.sh</h5>
 
 >This is shell script that envokes a python evironment to connect to spotify and programmatically update my 100 newest liked songs. I can either call that shell script from the command line or create a cron-job that will do it on a set schedule. If you want to use it you need to input your user id for spotify which you can get on <a href="https://developer.spotify.com/documentation/web-api">their developer website</a>.
