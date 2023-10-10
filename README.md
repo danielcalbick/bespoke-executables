@@ -1,89 +1,56 @@
 <h1 align= center>
-    Project Title
+    Bespoke Executable Files
 </h1>
 
 <!-- Main table for layout -->
 <table>
-<tr>
-
-<!-- Left column for Table of Contents -->
-<td width="50%" valign="top">
-    <h2 align= center>
-        <strong>Table of Contents</strong>
-    </h2>
-    <div>
-
-1. [Introduction](#introduction)
-2. [Getting Started](#getting-started)
-3. [Prerequisites](#prerequisites)
-4. [Installation](#installation)
-5. [Usage](#usage)
-6. [Code Samples](#code-samples)
-7. [Features](#features)
-8. [Contributing](#contributing)
-9. [License](#license)
-10. [Acknowledgments](#acknowledgments)
-
-    </div>
-
-</td>
-
-<!-- Right column for Project Description -->
-<td width="50%" valign="top">
-    <h2 align= center>
-        <strong><em>tl ; dr</em></strong>
-    </h2>
-
-<br>
-
-<div>
-One Paragraph of the project description goes here. Provide an introductory sentence about what the project is used for.
-</div>
-
-<br>
-
-<img src="project-image-url" alt="Project Image">
+  <tr>
+    <!-- Left column for Table of Contents -->
+    <td width="50%" valign="top">
+        <h2 align= center><strong>Table of Contents</strong></h2>
+        <div>
+          <ol>
+            <li><a href="#prereqs">Prerequisites</a></li>
+            <li><a href="#install">Installation</a></li>
+            <li><a href="#code">Code</a>
+              <ol type="i">
+                <li><a href="#spotify_rl">sync_recently_liked_spotify.sh</a></li>
+              </ol>
+            </li>
+          </ol>
+        </div>
+    </td>
+    <!-- Right column for Project Description -->
+    <td width="50%" valign="top">
+      <h2 align= center><strong>Info</strong></h2>
+      <div>
+        This repo contains all the executable files I use on my computer. It is where I place things like source code I run on a schedule, or helper functions that I use to run complicated functions having to do with my personal/local computer. For instance, <strong>sync_recently_liked_spotify.sh</strong> is a shell script that envokes a python evironment to connect to spotify and programmatically update my 100 newest liked songs. I can either call that shell script from the command line or create a cron-job that will do it on a set schedule."
+      </div>
+      <br>
+    </td>
+  </tr>
+</table>
 
 <!-- Additional Sections here -->
 
-</td>
-</tr>
-</table>
-
-<h2 style="your-style-here" id="introduction">Introduction</h2>
+<h3 style="your-style-here" id="prereqs">Prerequisites</h3>
 
 <div>
-  Detailed introduction about the project. You may include what the project does, why it is useful, etc.
+  Well this repo is mostly just for me so there may be some dependencies for the systme that I am using. For example, much like Justin Long, I'm a mac guy; so, much of this is probably written to opperate on a UNIX based OS, and even more specifically probably a mac. However, I'm sure if you find some code interesting you can port the logic and switch it to PC.
 </div>
 
-<h2 style="your-style-here" id="getting-started">Getting Started</h2>
-
-<div>
-  These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
-</div>
-
-<h3 style="your-style-here" id="prerequisites">Prerequisites</h3>
-
-<div>
-  List of software, hardware, and other resources that are prerequisites for installing this project.
-  
-  <code>
-  # Example for installing prerequisites
-  apt-get install example-package
-  </code>
-</div>
-
-<h3 style="your-style-here" id="installation">Installation</h3>
+<h3 style="your-style-here" id="install">Installation</h3>
 
 <div>
 
 1. Clone the repo
-   <code>git clone https://github.com/danielcalbick/Project-Name.git</code>
-2. Change directory
-   <code>cd Project-Name</code>
-3. Install packages
-   <code>npm install</code>
-4. Run the code
-   <code>npm start</code>
+   <code>git clone https://github.com/danielcalbick/bespoke-executables.git</code>
 
 </div>
+
+
+<h3 style="your-style-here" id="code">Code:</h3>
+
+<h6 style="your-style-here" id="spotify_rl">sync_recently_liked_spotify.sh</h6>
+
+>This is shell script that envokes a python evironment to connect to spotify and programmatically update my 100 newest liked songs. I can either call that shell script from the command line or create a cron-job that will do it on a set schedule. If you want to use it you need to input your user id for spotify which you can get on <a href="https://developer.spotify.com/documentation/web-api">their developer website</a>.
